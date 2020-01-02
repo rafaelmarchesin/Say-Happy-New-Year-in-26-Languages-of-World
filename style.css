@@ -1,0 +1,75 @@
+/* Inicio o código zerando os valores default do CSS */
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+    vertical-align:baseline;
+}
+
+body{
+    background-color: #30706f;
+}
+
+p{
+    padding: 10px;
+}
+
+header{
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    box-shadow:0px 3px 10px black;
+}
+
+article{
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#langChoice{
+    font-size: 16px;
+    width: 100%;
+
+}
+
+#pBtn{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+}
+
+#information{
+    cursor: pointer;
+    background-color: #30706f;
+    color: white;
+    margin: 15px auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#information:hover{
+    background-color: #419B9A;
+}
+
+#resultAbout{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}

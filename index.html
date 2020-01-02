@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Say Happy New Year in 26 Languages of World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello, 2020!</h1>
+    </header>
+    <article>
+        <p align="center">Choose a Language:</p>
+        
+        <!-- Insert language selector -->
+        <select name="langChoice" id="langChoice" size="1">
+        <option value="lang1">German</option>
+        <option value="lang2">Arabic</option>
+        <option value="lang3">Catalan</option>
+        <option value="lang4">Danish</option>
+        <option value="lang5">Slovak</option>
+        <option value="lang6">Spanish</option>
+        <option value="lang7">French</option>
+        <option value="lang8">Greek</option>
+        <option value="lang9">Gujarati</option>
+        <option value="lang10">Hebrew</option>
+        <option value="lang11">Hokkien</option>
+        <option value="lang12">Dutch</option>
+        <option value="lang13">English</option>
+        <option value="lang14">Italian</option>
+        <option value="lang15">Japanese</option>
+        <option value="lang16">Latvian</option>
+        <option value="lang17">Lithuanian</option>
+        <option value="lang18">Mandarin</option>
+        <option value="lang19">Polish</option>
+        <option value="lang20">Portuguese</option>
+        <option value="lang21">Romanian</option>
+        <option value="lang22">Russian</option>
+        <option value="lang23">Serbian</option>
+        <option value="lang24">Swahili</option>
+        <option value="lang25">Thai</option>
+        <option value="lang26">Turkish</option>
+        </select>
+        
+        <!-- When the button is clicked, the result appears -->
+        <p id="pBtn"><button id="btnSay" onclick="sayHappyNewYear()">Say Happy New Year!</button></p>
+        
+        <!-- Result Location -->
+        <p id="result">2020 is starting ...</p>
+        
+        <div>
+            <p id="information" onclick="openAbout()">i</p>
+            <p id="resultAbout"></p>
+        </div>
+    </article>
+    <footer>
+        <!-- Information -->
+        <p>Rafael Marchesin</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
