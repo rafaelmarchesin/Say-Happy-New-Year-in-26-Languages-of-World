@@ -9,7 +9,6 @@ Clicando no link abaixo, é possível ver a aplicação em funcionamento no repo
 Ao clicar no link a seguir, é possível conferir a aplicação em funcionamento no editor de código dentro do SoloLearn.
 
 > [https://code.sololearn.com/W0khc114aWhb](https://code.sololearn.com/W0khc114aWhb)
-
 ---
 
 ## Dados da Aplicação
@@ -28,14 +27,17 @@ v.1.0
 
 ### Licença:
 MIT License
+
 ---
 
 ## Documentação
 ### Tela principal:
+
 ![A imagem mostra a tela principal do aplicativo. No topo está escrito Hello, 2020, logo abaixo é possível escolher a língua. O texto está em inglês. Onde o aplicativo recebe a mensagem na língua escolhida, está escrito 2020 is starting. Há um ícone com aletra i indicando espaço para informação. No final da página, está escrito o nome do autor do aplicativo, Rafael Marchesin. O plano de fundo da aplicação é verde.](https://raw.githubusercontent.com/rafaelmarchesin/Say-Happy-New-Year-in-26-Languages-of-World/master/images/main-view.jpg)
 
 ### Selecionando a língua:
 Para selecionar a língua, basta clicar no campo abaixo da frase “Choose a Language” e clicar sobre a língua escolhida como demonstrado na imagem a seguir:
+
 ![É possível ver o campo de seleção de línguas aberto em formato de cascata. Várias línguas aparecem na tela, a língua Catalan está marcada em azul.](https://raw.githubusercontent.com/rafaelmarchesin/Say-Happy-New-Year-in-26-Languages-of-World/master/images/view-cascate.jpg)
 
 Após selecionar a língua, é preciso clicar no botão "Say Happy New Year!" para que o resultado se torne visível.
